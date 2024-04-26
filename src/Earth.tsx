@@ -1,5 +1,4 @@
 import Globe from 'react-globe.gl'
-import './App.css'
 // @ts-ignore
 import globeImage from "../public/earth-dark.jpg"
 import { useRef } from 'react';
@@ -39,6 +38,8 @@ export default function Earth(fire: any) {
 
 		return filtered;
 	};
+
+	console.log(screen)
 
 	return (
 		<Globe

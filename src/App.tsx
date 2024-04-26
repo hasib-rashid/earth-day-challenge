@@ -17,8 +17,14 @@ function App() {
 	return (
 		<div className='app'>
 			<Header />
-			<h1 className='text-3xl'>Hello World</h1>
-			{firedata ? <Earth fire={firedata} /> : <h1>Loading</h1>}
+			<div>
+				<div className='w-20'>
+					<h1 className='text-3xl'>Hello World</h1>
+				</div>
+				<div className="flex justify-center items-center">
+					{firedata ? <Earth fire={firedata} /> : <h1>Loading</h1>}
+				</div>
+			</div>
 		</div>
 	)
 }
