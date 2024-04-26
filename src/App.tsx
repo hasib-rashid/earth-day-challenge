@@ -1,11 +1,9 @@
-
 import { useEffect, useState } from 'react';
 import axios from 'axios'
 import Earth from './Earth';
 import Header from './components/Header';
 
 function App() {
-
 	const [firedata, setFiredata] = useState<any>(null)
 
 	useEffect(() => {

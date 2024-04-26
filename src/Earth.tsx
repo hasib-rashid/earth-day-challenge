@@ -39,8 +39,6 @@ export default function Earth(fire: any) {
 		return filtered;
 	};
 
-	console.log(screen)
-
 	return (
 		<Globe
 			globeImageUrl={globeImage}
