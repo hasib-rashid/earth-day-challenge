@@ -15,7 +15,7 @@ export default function Earth(fire: any) {
 			globeRef.current.pointOfView({
 				lat: 19.054339351561637,
 				lng: -50.421161072148465,
-				altitude: 1.8,
+				altitude: 1.5,
 			});
 		}
 	};

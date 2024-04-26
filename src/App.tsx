@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios'
 import Earth from './Earth';
+import Header from './components/Header';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
 
 	return (
 		<div className='app'>
-			<h1 className='text-3xl bg-red-500'>Hello World</h1>
+			<Header />
+			<h1 className='text-3xl'>Hello World</h1>
 			{firedata ? <Earth fire={firedata} /> : <h1>Loading</h1>}
 		</div>
 	)
