@@ -15,7 +15,7 @@ function App() {
 
 	return (
 		<div className='app'>
-			<h1>Hello World</h1>
+			<h1 className='text-3xl bg-red-500'>Hello World</h1>
 			{firedata ? <Earth fire={firedata} /> : <h1>Loading</h1>}
 		</div>
 	)

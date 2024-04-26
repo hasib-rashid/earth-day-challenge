@@ -1,5 +1,6 @@
 import Globe from 'react-globe.gl'
 import './App.css'
+// @ts-ignore
 import globeImage from "../public/earth-dark.jpg"
 import { useRef } from 'react';
 
@@ -20,7 +21,6 @@ export default function Earth(fire: any) {
 	};
 
 	const mappedData = fire.fire.events.map((d: any) => {
-
 		if (d.categories[0].id === undefined) return
 
 		if (d.categories[0].id === 8) {
@@ -39,7 +39,7 @@ export default function Earth(fire: any) {
 
 		return filtered;
 	};
-	console.log(removeEmptyValues(mappedData))
+
 	return (
 		<Globe
 			globeImageUrl={globeImage}
