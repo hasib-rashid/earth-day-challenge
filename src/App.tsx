@@ -14,7 +14,8 @@ function App() {
 	}, [])
 
 	return (
-		<div className='cursor-move'>
+		<div className='app'>
+			<h1>Hello World</h1>
 			{firedata ? <Earth fire={firedata} /> : <h1>Loading</h1>}
 		</div>
 	)
