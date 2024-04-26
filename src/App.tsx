@@ -4,6 +4,7 @@ import Earth from './Earth';
 import Header from './components/Header';
 import Loading from './components/Loading';
 import { FAQ } from './components/FAQ';
+import { HeroText } from './components/Hero/HeroText';
 
 function App() {
 	const [firedata, setFiredata] = useState<any>(null)
@@ -32,8 +33,9 @@ function App() {
 						<div className="flex justify-center items-center relative brightness-60 z-0">
 							<Earth fire={firedata} />
 						</div>
-						<FAQ />
 					</div>
+					<FAQ />
+					<HeroText />
 				</div>
 				: <Loading />}
 		</div>
