@@ -18,8 +18,13 @@ function App() {
 		<div className='app'>
 			<Header />
 			<div>
-				<div className='w-20'>
-					<h1 className='text-3xl'>Hello World</h1>
+				<div>
+					<h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
+						Save <span className='text-green-500'>Earth</span> <br />
+						Save {' '}
+						<span className="bg-gradient-to-br from-teal-100 via-teal-200 to-teal-500 text-transparent bg-clip-text">Humanity</span>
+						.
+					</h1>
 				</div>
 				<div className="flex justify-center items-center">
 					{firedata ? <Earth fire={firedata} /> : <h1>Loading</h1>}
