@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Loading from './components/Loading';
 import { FAQ } from './components/FAQ';
 import { HeroText } from './components/Hero/HeroText';
+import Testimonial from './components/Testimonial';
 
 function App() {
 	const [firedata, setFiredata] = useState<any>(null)
@@ -36,6 +37,10 @@ function App() {
 					</div>
 					<FAQ />
 					<HeroText />
+					<br />
+					<br />
+					<br />
+					<Testimonial />
 				</div>
 				: <Loading />}
 		</div>

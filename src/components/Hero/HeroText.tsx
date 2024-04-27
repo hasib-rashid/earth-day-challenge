@@ -12,26 +12,22 @@ export function HeroText() {
 
             <div className={classes.inner}>
                 <Title className={classes.title}>
-                    Automated AI{' '}
-                    <Text component="span" className={classes.highlight} inherit>
-                        code reviews
+                    Take{' '}
+                    <Text component="span" color="red" inherit>
+                        Action
                     </Text>{' '}
-                    for any stack
+                    Now
                 </Title>
 
                 <Container p={0} size={600}>
                     <Text size="lg" c="dimmed" className={classes.description}>
-                        Build more reliable software with AI companion. AI is also trained to detect lazy
-                        developers who do nothing and just complain on Twitter.
+                        Join our Earth Day quiz to test your knowledge and learn more about what you can do to help our planet!
                     </Text>
                 </Container>
 
                 <div className={classes.controls}>
-                    <Button className={classes.control} size="lg" variant="default" color="gray">
-                        Book a demo
-                    </Button>
-                    <Button className={classes.control} size="lg">
-                        Purchase a license
+                    <Button className={classes.control} color='green' size="lg">
+                        Start the Quiz!
                     </Button>
                 </div>
             </div>

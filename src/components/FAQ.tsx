@@ -16,10 +16,10 @@ export function FAQ() {
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6 }}>
                         <Title order={2} ta="left" className={classes.title}>
-                            Facts about Earth Day
+                            Welcome to Our Earth Day Celebration!
                         </Title>
-
-                        <Accordion chevronPosition="right" defaultValue="reset-password" variant="separated">
+                        <br />
+                        <Accordion chevronPosition="right" defaultValue="another-account" variant="separated">
                             <Accordion.Item className={classes.item} value="another-account">
                                 <Accordion.Control>Did you know?</Accordion.Control>
                                 <Accordion.Panel>
@@ -58,13 +58,6 @@ export function FAQ() {
                 </Grid>
 
             </Container>
-            <section>
-                <div className="action-call">
-                    <h2>Take Action Now</h2>
-                    <p>Join our Earth Day quiz to test your knowledge and learn more about what you can do to help our planet!</p>
-                    <a href="#">Start the Quiz!</a>
-                </div>
-            </section>
         </div>
     );
 }

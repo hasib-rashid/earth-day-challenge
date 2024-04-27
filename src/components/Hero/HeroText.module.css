@@ -46,7 +46,7 @@
 }
 
 .highlight {
-  color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+  color: light-dark(var(--mantine-color-red-7), var(--mantine-color-red-7));
 }
 
 .description {
