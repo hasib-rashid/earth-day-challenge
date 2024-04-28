@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 // @ts-ignore: Object is possibly 'null'.
-import * as axios from 'axios'
+import axios from 'axios'
 import Earth from './Earth';
 import Header from './components/Header';
 import Loading from './components/Loading';
@@ -18,8 +18,8 @@ function App() {
 	};
 
 	useEffect(() => {
-		// @ts-ignore: Object is possibly 'null'.
-		axios.get<GetData>("https://eonet.gsfc.nasa.gov/api/v2.1/events").then((res: any) => {
+		axios.get<GetData>("https://eonet.gsfc.nasa.gov/api/v2.1/events").then((res: Object) => {
+			// @ts-ignore: Object is possibly 'null'.
 			setFiredata(res.data)
 		})
 	}, [])
