@@ -8,7 +8,6 @@ const placeholder =
 export function FAQ() {
     return (
         <div className={classes.wrapper}>
-
             <Container size="lg">
                 <Grid id="faq-grid" gutter={50}>
                     <Grid.Col span={{ base: 12, md: 6 }}>
