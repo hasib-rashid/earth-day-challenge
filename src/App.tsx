@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 // @ts-ignore: Object is possibly 'null'.
-import axios from 'axios'
+import * as axios from 'axios'
 import Earth from './Earth';
 import Header from './components/Header';
 import Loading from './components/Loading';
