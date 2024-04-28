@@ -13,9 +13,13 @@ import { Footer } from './components/Footer';
 function App() {
 	const [firedata, setFiredata] = useState<any>(null)
 
+	type GetData = {
+		data: any;
+	};
+
 	useEffect(() => {
 		// @ts-ignore: Object is possibly 'null'.
-		axios.get("https://eonet.gsfc.nasa.gov/api/v2.1/events").then((res: any) => {
+		axios.get<GetData>("https://eonet.gsfc.nasa.gov/api/v2.1/events").then((res: any) => {
 			setFiredata(res.data)
 		})
 	}, [])
