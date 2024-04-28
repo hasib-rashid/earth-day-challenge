@@ -7,7 +7,7 @@ import { FAQ } from './components/FAQ';
 import { HeroText } from './components/Hero/HeroText';
 import Testimonial from './components/Testimonial';
 import Event from './components/Event';
-import { Footer } from './components/Footer/Footer';
+import { Footer } from './components/Footer';
 
 function App() {
 	const [firedata, setFiredata] = useState<any>(null)
