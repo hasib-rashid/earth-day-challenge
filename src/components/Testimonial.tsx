@@ -9,11 +9,18 @@ export default function Testimonial() {
                     Inspiration Corner
                 </h1>
             </Center>
-            <Center className="absolute z-10 invert">
-                <img src={quote} alt="quote" />
-
+            <Center className="absolute z-10 w-full">
+                <div className="flex justify-center items-center pt-24 flex-col">
+                    <img src={quote} className="invert h-full" alt="quote" />
+                    <p className="text-2xl font-sans font-bold lg:mt-4">The <span className="text-[#2BDD66] font-extrabold">Earth</span> does not belong to us:</p>
+                    <p className="text-3xl font-sans font-bold"><span className="text-[#C91A25] font-extrabold">We</span> belong to the <span className="text-[#2BDD66] font-extrabold">Earth</span>."</p>
+                    <p className="mt-3 text-white text-xl">- Marlee Matlin</p>
+                    <p className="sm:mt-7 md:mt-12 text-xl font-medium">This Earth Day, let's remember we are part of a larger ecosystem and our actions have a profound impact on our planet.</p>
+                </div>
             </Center>
-            <img className="relative z-0 w-screen brightness-75" src="https://www.shutterstock.com/image-illustration/planet-earth-realistic-geography-surface-600nw-2144341697.jpg" alt="Earth" />
+            <Center>
+                <img className="relative z-0 w-screen h-screen brightness-50" src="https://www.shutterstock.com/image-illustration/planet-earth-realistic-geography-surface-600nw-2144341697.jpg" alt="Earth" />
+            </Center>
         </main>
     )
 }
