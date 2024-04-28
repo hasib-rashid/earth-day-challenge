@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-/*eslint import/no-unresolved:*/
+// @ts-ignore: Object is possibly 'null'.
 import axios from 'axios'
 import Earth from './Earth';
 import Header from './components/Header';
@@ -14,6 +14,7 @@ function App() {
 	const [firedata, setFiredata] = useState<any>(null)
 
 	useEffect(() => {
+		// @ts-ignore: Object is possibly 'null'.
 		axios.get("https://eonet.gsfc.nasa.gov/api/v2.1/events").then((res: any) => {
 			setFiredata(res.data)
 		})
