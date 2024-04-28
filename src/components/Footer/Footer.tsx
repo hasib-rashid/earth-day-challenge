@@ -1,15 +1,8 @@
-import { Container, Group } from '@mantine/core';
-import classes from './Footer.module.css';
-
-export function FooterSocial() {
+export function Footer() {
     return (
-        <div className={classes.footer}>
-            <Container className={classes.inner}>
-                <h1>Hello</h1>
-                <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
-                    <h1>Difference</h1>
-                </Group>
-            </Container>
-        </div>
+        <footer className="border-t-[#3b3b3b] border-t-[1.5px] flex flex-col justify-center items-center h-40">
+            <h1 className="text-3xl font-bold">🌍 Happy Earth Day</h1>
+            <p className="mt-3 font-semibold text-lg">Together, we can make a difference.</p>
+        </footer>
     );
 }
