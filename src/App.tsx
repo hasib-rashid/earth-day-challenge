@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+/*eslint import/no-unresolved:*/
 import axios from 'axios'
 import Earth from './Earth';
 import Header from './components/Header';
