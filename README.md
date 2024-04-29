@@ -1,3 +1,5 @@
+![Demo Image](https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j1a6n2f6szea3yxt48uw.png)
+
 ## I made a Earth Day Challenge website that calls for Humanity for Earth
 
 ### Visit the full article [here](https://dev.to/hasibrashid/i-made-a-earth-day-challenge-website-that-calls-for-humanity-for-earth-ege)
